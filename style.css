@@ -413,7 +413,7 @@ p {
 
 }
 
-@media screen and (max-width:397px){
+/* @media screen and (max-width:397px){
 
     .navList {
         visibility: hidden;
@@ -445,4 +445,4 @@ p {
     .bottom .next {
         margin-top: 15px;
     }
-}
+} */
