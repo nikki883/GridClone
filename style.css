@@ -237,6 +237,7 @@ footer {
 .footer a {
     margin-right: 9px;
 }
+
 .footer span {
     margin-right: 9px;
 }
@@ -250,117 +251,6 @@ footer {
     gap: 10px;
 }
 
-/* //media queries */
-
-@media screen and (max-width:1000px) {
-    .logo {
-
-        font-size: 120px;
-        letter-spacing: 1px;
-        text-align: center;
-    }
-
-    .img {
-        width: 100%;
-    }
-
-    .Grid2 button {
-        visibility: hidden;
-    }
-
-    .Grid2 {
-        gap: 15px;
-    }
-
-    .Grid4 {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-in-three {
-        gap: 15px;
-    }
-
-    .outerGrid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-}
-
-
-
-@media screen and (max-width:360px) {
-    html {
-        max-width: 100%;
-    }
-.btn{
-    margin: 13px 0 13px 0;
-
-}
-    body {
-        max-width: 70%;
-        margin: auto;
-    }
-
-    .navList {
-        visibility: hidden;
-        display: none;
-    }
-
-    .Grid2 button {
-        visibility: initial;
-    }
-
-    .logo {
-        font-size: 47px;
-        text-align: center;
-    }
-
-    .outerGrid {
-        grid-template-columns: 250px;
-        gap: 10px;
-    }
-
-    .Grid4,
-    .Grid2 {
-        grid-template-columns: 250px;
-
-    }
-
-    .Grid4 img {
-        height: 150px;
-
-    }
-
-    .show1 {
-        visibility: hidden;
-        display: none;
-    }
-
-    .grid-in-three {
-        gap: 10px;
-        grid-template-columns: 250px;
-    }
-
-    .img {
-        width: 100%;
-    }
-
-    .footer {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .bottom {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .bottom .next {
-        margin-top: 15px;
-    }
-}
 
 
 /* //grid */
@@ -419,4 +309,162 @@ p {
 .lastp {
     margin-left: 95px;
     font-size: 10px;
+}
+
+/* //media queries */
+
+@media screen and (max-width:1000px) {
+    .logo {
+
+        font-size: 120px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .Grid2 button {
+        visibility: hidden;
+    }
+
+    .Grid2 {
+        gap: 15px;
+    }
+
+    .Grid4 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-in-three {
+        gap: 15px;
+    }
+
+    .outerGrid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
+    html {
+        max-width: 100%;
+    }
+
+    .btn {
+        margin: 10px 2px 10px 0;
+        padding: 2px 5px;
+    }
+
+    body {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .navList {
+        visibility: hidden;
+        display: none;
+    }
+
+    .Grid2 button {
+        visibility: initial;
+    }
+
+    .logo {
+        font-size: 47px;
+        text-align: center;
+    }
+
+    .outerGrid {
+        /* grid-template-columns: 1fr; */
+        grid-template-columns: 250px;
+        gap: 10px;
+    }
+
+    .Grid4,
+    .Grid2 {
+        grid-template-columns: 250px;
+        /* grid-template-columns: 1fr; */
+
+    }
+
+    .Grid4 img {
+        height: 150px;
+
+    }
+
+    .show1 {
+        visibility: hidden;
+        display: none;
+    }
+
+    .grid-in-three {
+        gap: 10px;
+        grid-template-columns: 250px;
+        /* grid-template-columns: 1fr; */
+    }
+
+    .img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    .navList {
+        visibility: hidden;
+        display: none;
+    }
+
+    .logo {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .outerGrid {
+        grid-template-columns: 300px;
+        gap: 10px;
+    }
+
+    .Grid4,
+    .Grid2 {
+        grid-template-columns: 300px;
+
+    }
+
+    .Grid4 img {
+        height: 150px;
+
+    }
+
+    .show1 {
+        visibility: hidden;
+        display: none;
+    }
+
+    .grid-in-three {
+        gap: 10px;
+        grid-template-columns: 300px;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom .next {
+        margin-top: 15px;
+    }
 }
