@@ -349,7 +349,7 @@ p {
 
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:370px) {
     html {
         max-width: 100%;
     }
@@ -410,6 +410,18 @@ p {
     .img {
         width: 100%;
     }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
 
