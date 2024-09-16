@@ -377,6 +377,9 @@ p {
     .logo {
         font-size: 45px;
         text-align: center;
+        letter-spacing: 2px;
+        word-spacing: 0px;
+        line-height: 1.1em;
     }
 
     .outerGrid {
@@ -431,6 +434,9 @@ p {
 
     .logo {
         font-size: 50px;
+        letter-spacing: 2px;
+        word-spacing: 0px;
+        line-height: 1.1em;
         text-align: center;
     }
 
