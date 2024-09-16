@@ -361,7 +361,7 @@ p {
 
     body {
         max-width: 70%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .navList {
@@ -413,7 +413,7 @@ p {
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:397px){
 
     .navList {
         visibility: hidden;
