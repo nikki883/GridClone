@@ -421,36 +421,14 @@ p {
     }
 
     .logo {
-        font-size: 55px;
+        font-size: 50px;
         text-align: center;
-    }
-
-    .outerGrid {
-        grid-template-columns: 300px;
-        gap: 10px;
-    }
-
-    .Grid4,
-    .Grid2 {
-        grid-template-columns: 300px;
-
-    }
-
-    .Grid4 img {
-        height: 150px;
-
     }
 
     .show1 {
         visibility: hidden;
         display: none;
     }
-
-    .grid-in-three {
-        gap: 10px;
-        grid-template-columns: 300px;
-    }
-
 
     .footer {
         flex-direction: column;
